@@ -11,6 +11,9 @@ $pdo->exec("CREATE TABLE IF NOT EXISTS taskDB (
 $tasks = $pdo->query("SELECT * FROM taskDB")->fetchAll(PDO::FETCH_ASSOC);
 ?>
 <html>
+<head>
+    <title>TaskInator - Task Manager</title>
+    <link rel="stylesheet" href="style.css">
 <body>
     <h1>Welcome to TaskInator!</h1>
     <p>The Task Manager used by the Moroccan Space Agency!</p>
