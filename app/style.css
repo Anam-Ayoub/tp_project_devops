@@ -1,0 +1,85 @@
+body {
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #f5f7fa;
+    color: #333;
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
+
+p {
+    color: #666;
+    margin-top: 0;
+}
+
+h2 {
+    color: #34495e;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 8px;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input[name="title"] {
+    flex: 1;
+    padding: 10px 15px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+input[name="title"]:focus {
+    outline: none;
+    border-color: #3498db;
+}
+
+button {
+    padding: 10px 20px;
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background: #2980b9;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+li a {
+    color: #e74c3c;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+li a:hover {
+    background: #fee;
+}

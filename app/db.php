@@ -1,8 +1,8 @@
 <?php
-$host = 'localhost';
-$dbname = 'taskDB';
-$user = 'root';
-$pass = '';
+$host = getenv('DB_HOST');
+$dbname = getenv('DB_NAME');
+$user = getenv('DB_USER');
+$pass = getenv('DB_PASSWORD');
 
 try {
     $pdo = new PDO("mysql:host=$host;charset=utf8", $user, $pass);
